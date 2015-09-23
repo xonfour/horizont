@@ -1,14 +1,14 @@
-This is the very first release of Horizont, a software which is able to synchronize local user data with remote storage services like *Dropbox*.
+This is the **very first** release of *Horizont*, a software which is able to synchronize local user data with remote storage services like *Dropbox*.
 
 Internally the software can dynamically adapt to competely different use cases by connecting data access and data processing modules. It follows the leading underlying principles of security and expandability. 
 
 In the default configuration the software allows to synchronize a local folder to a remote *Dropbox* account. On the remote side files and folders are encrypted using OpenPGP. Data can be shared with other users of the system. It can be set up using a simple "Setup Wizard".
 
-This project is the result of a master's thesis in computer science at the Technical University of Berlin. It is still in **BETA** stage so use it with care.
+This project is the result of a master's thesis in computer science at the Technical University of Berlin. It is still in **BETA** stage so please use it with care.
 
 # Usage
 
-You can find JAR files (try **Horizont_0.9beta.jar** first) ready to use which include the default configuration in the *jar* sub-folder.
+You may use JAR files (try **Horizont_0.9beta.jar** first) ready to use which include the default configuration in the *jar* sub-folder.
 
 ```
 Usage: java -jar Horizont_0.9beta.jar [options]
@@ -71,8 +71,10 @@ Minimum requirement is Java Version >= 7. The project also depends on external l
 
 * Sea Glass Look and Feel for Swing 0.2 (Apache 2.0 - http://seaglasslookandfeel.com)
 
-(Maven is in preperation)
+(Maven is in preparation)
 
 # ToDo
+
+- Move JAR files to seperate web space
 
 Will be added soon.
